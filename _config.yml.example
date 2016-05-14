@@ -26,6 +26,7 @@ customize:
 
 # Widgets
 widgets:
+	- about
     - recent_posts
     - category
     - archive
@@ -33,6 +34,11 @@ widgets:
     - tagcloud
     - links
 
+#About widget
+about: 
+    header: About
+    text: This is a test
+	
 # Search
 search:
     insight: true # you need to install `hexo-generator-json-content` before using Insight Search
